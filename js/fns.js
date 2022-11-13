@@ -40,6 +40,7 @@ function makeSingleOneItem(itemObj) {
     <h3 class="ps-4 pt-2">${itemObj.title}</h3>
     <p class="price ps-4">${itemObj.price} Eur</p>
     <p class="ps-4">Category: ${itemObj.category}  # ${itemObj.id}</p>
+    <p class="ps-4">Description: ${itemObj.description}</p>
     <div class="control ps-4">
       <button class="btn btn-outline-light">Add to cart</button>
       <a class="btn btn-outline-secondary" href="index.html">< Go back</a>
